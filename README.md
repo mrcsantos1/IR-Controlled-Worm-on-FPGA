@@ -1,6 +1,6 @@
 # IR Controlled Worm on FPGA
 
-## =================30/09/2019=========================
+## ==================30/09/2019=========================
 ## Este trabalho foi desenvolvido por:
 ### Jaderson Rosa dos Santos 
 ### &
