@@ -5,7 +5,7 @@
 ### Jaderson Rosa dos Santos 
 ### &
 ### Marcos Alves dos Santos.
-## ====================================================
+## ===================================================
 
 
 ##### Projeto de uma minhoca de 6 segmentos presente em 8 displays (de 7 segmentos) com 2 caminhos previamente instanciados controlada por um controle remoto (infravermelho) disponibilizado pela placa PFGA DE2-115.
