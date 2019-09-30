@@ -1,0 +1,92 @@
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+
+# Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# File: C:\Users\mrcsa\Desktop\Graduação\Eng. Elétrica\6º Semestre\Análise\FPGA\Trabalhos\Trabalho Final\Minhoca\teste1.csv
+# Generated on: Mon Sep 23 16:26:06 2019
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+caminho,Input,PIN_AD26,5,B5_N2,,,,,,
+clock,Input,PIN_Y2,2,B2_N0,,,,,,
+disp[55],Output,PIN_AD17,4,B4_N2,,,,,,
+disp[54],Output,PIN_AE17,4,B4_N2,,,,,,
+disp[53],Output,PIN_AG17,4,B4_N2,,,,,,
+disp[52],Output,PIN_AH17,4,B4_N2,,,,,,
+disp[51],Output,PIN_AF17,4,B4_N2,,,,,,
+disp[50],Output,PIN_AG18,4,B4_N2,,,,,,
+disp[49],Output,PIN_AA14,3,B3_N0,,,,,,
+disp[48],Output,PIN_AA17,4,B4_N1,,,,,,
+disp[47],Output,PIN_AB16,4,B4_N2,,,,,,
+disp[46],Output,PIN_AA16,4,B4_N2,,,,,,
+disp[45],Output,PIN_AB17,4,B4_N1,,,,,,
+disp[44],Output,PIN_AB15,4,B4_N2,,,,,,
+disp[43],Output,PIN_AA15,4,B4_N2,,,,,,
+disp[42],Output,PIN_AC17,4,B4_N2,,,,,,
+disp[41],Output,PIN_AD18,4,B4_N1,,,,,,
+disp[40],Output,PIN_AC18,4,B4_N1,,,,,,
+disp[39],Output,PIN_AB18,4,B4_N0,,,,,,
+disp[38],Output,PIN_AH19,4,B4_N2,,,,,,
+disp[37],Output,PIN_AG19,4,B4_N2,,,,,,
+disp[36],Output,PIN_AF18,4,B4_N1,,,,,,
+disp[35],Output,PIN_AH18,4,B4_N2,,,,,,
+disp[34],Output,PIN_AB19,4,B4_N0,,,,,,
+disp[33],Output,PIN_AA19,4,B4_N0,,,,,,
+disp[32],Output,PIN_AG21,4,B4_N2,,,,,,
+disp[31],Output,PIN_AH21,4,B4_N2,,,,,,
+disp[30],Output,PIN_AE19,4,B4_N1,,,,,,
+disp[29],Output,PIN_AF19,4,B4_N1,,,,,,
+disp[28],Output,PIN_AE18,4,B4_N2,,,,,,
+disp[27],Output,PIN_V21,5,B5_N1,,,,,,
+disp[26],Output,PIN_U21,5,B5_N0,,,,,,
+disp[25],Output,PIN_AB20,4,B4_N0,,,,,,
+disp[24],Output,PIN_AA21,4,B4_N0,,,,,,
+disp[23],Output,PIN_AD24,4,B4_N0,,,,,,
+disp[22],Output,PIN_AF23,4,B4_N0,,,,,,
+disp[21],Output,PIN_Y19,4,B4_N0,,,,,,
+disp[20],Output,PIN_AA25,5,B5_N1,,,,,,
+disp[19],Output,PIN_AA26,5,B5_N1,,,,,,
+disp[18],Output,PIN_Y25,5,B5_N1,,,,,,
+disp[17],Output,PIN_W26,5,B5_N1,,,,,,
+disp[16],Output,PIN_Y26,5,B5_N1,,,,,,
+disp[15],Output,PIN_W27,5,B5_N1,,,,,,
+disp[14],Output,PIN_W28,5,B5_N1,,,,,,
+disp[13],Output,PIN_M24,6,B6_N2,,,,,,
+disp[12],Output,PIN_Y22,5,B5_N0,,,,,,
+disp[11],Output,PIN_W21,5,B5_N1,,,,,,
+disp[10],Output,PIN_W22,5,B5_N0,,,,,,
+disp[9],Output,PIN_W25,5,B5_N1,,,,,,
+disp[8],Output,PIN_U23,5,B5_N1,,,,,,
+disp[7],Output,PIN_U24,5,B5_N0,,,,,,
+disp[6],Output,PIN_G18,7,B7_N2,,,,,,
+disp[5],Output,PIN_F22,7,B7_N0,,,,,,
+disp[4],Output,PIN_E17,7,B7_N2,,,,,,
+disp[3],Output,PIN_L26,6,B6_N1,,,,,,
+disp[2],Output,PIN_L25,6,B6_N1,,,,,,
+disp[1],Output,PIN_J22,6,B6_N0,,,,,,
+disp[0],Output,PIN_H22,6,B6_N0,,,,,,
+enable,Input,PIN_AB28,5,B5_N1,,,,,,
+led_posic[9],Output,PIN_H15,7,B7_N2,,,,,,
+led_posic[8],Output,PIN_G16,7,B7_N2,,,,,,
+led_posic[7],Output,PIN_F15,7,B7_N2,,,,,,
+led_posic[6],Output,PIN_H17,7,B7_N2,,,,,,
+led_posic[5],Output,PIN_J16,7,B7_N2,,,,,,
+led_posic[4],Output,PIN_J15,7,B7_N2,,,,,,
+led_posic[3],Output,PIN_G17,7,B7_N1,,,,,,
+led_posic[2],Output,PIN_J17,7,B7_N2,,,,,,
+led_posic[1],Output,PIN_H19,7,B7_N2,,,,,,
+led_posic[0],Output,PIN_J19,7,B7_N2,,,,,,
+reset,Input,PIN_AC27,5,B5_N2,,,,,,
+sentido,Input,PIN_AB27,5,B5_N1,,,,,,

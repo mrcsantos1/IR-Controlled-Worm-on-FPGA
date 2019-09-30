@@ -1,0 +1,25 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity ir1 is
+  port (
+        ir    :     in std_logic;  -- Sinal do controle
+        s1, s2, s3, s4      :   out std_logic   :=  '1';  -- Saídas de comando do controle
+        clk                 :   in std_logic  -- clock 50Mhz   
+  ) ;
+end ir1;
+
+
+architecture ir1 of main is
+
+    signal 
+
+    begin
+        if ((ir'event) and (ir = '1')) then
+            s1 <= '1'; 
+        else
+            s2 <= '1';
+        end if; 
+
+end ir1 ; -- ir1

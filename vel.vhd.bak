@@ -1,0 +1,43 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity vel is
+  port (
+            clock   :   in std_logic;  -- clock 50 Mhz
+            clk     :   out std_logic;  -- clock velocidade escolhida
+            vel1, vel2, vel3, vel4       : in std_logic  :=  '0'
+        );
+end vel;
+
+architecture main of vel is
+
+    signal clk1, clk2, clk3, clk4   :   std_logic;
+    signal ct1, ct2, ct3, ct4           :   integer    := 0;
+    
+    begin
+        process (clock)
+            begin 
+                if (clock'event and clock = '1') then 
+                    ct1 <= ct1 + 1;
+                    if ct1 = 50000000 then 
+                        clk1 <= not clk1;
+                        ct1 <= 0;
+                    end if;
+                end if;
+        end process;
+
+        process (clk1)
+            begin
+                if (vel1'event and vel1 = '1') then 
+                    clk <= clk1;
+          --      elsif (vel2'event and vel2 = '1') then 
+        --            clk <= clk2;
+      --          elsif (vel3'event and vel3 = '1') then 
+    --                clk <= clk3;
+  --              elsif (vel4'event and vel4 = '1') then 
+--                    clk <= clk4;
+                end if;
+        end process;
+
+end main ; -- main
