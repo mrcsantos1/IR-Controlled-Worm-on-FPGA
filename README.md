@@ -20,4 +20,4 @@
 ##### Deus;
 ##### Intel Corporation;
 ##### Prof° Celso;
-##### Laboratório da Elétrica;
+##### Laboratório da Elétrica.
