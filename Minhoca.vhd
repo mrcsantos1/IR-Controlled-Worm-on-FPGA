@@ -18,9 +18,9 @@ architecture main of Minhoca is
 
   component vel is
     port (
-          clock       :   in std_logic;  -- clock 50 Mhz
-          clk         :   out std_logic;  -- clock velocidade escolhida
-          vel1        :   in std_logic      -- entrada do controle remoto
+          clock       :   in std_logic;                         -- clock 50 Mhz
+          clk         :   out std_logic;                        -- clock velocidade escolhida
+          vel1        :   in std_logic_vector (3 downto 0)      -- entrada do controle remoto
           );
   end component;	
 
@@ -45,23 +45,23 @@ architecture main of Minhoca is
 
   component ir1 is
     port(
-          clock_50            :   in std_logic;   -- Y2 50 Mhz
-          in_IR               :   in std_logic;   -- Y15 sinal recebido pela portadora
-          push                :   in std_logic;   -- push botton RESET
-          way                 :   out std_logic;  -- caminhos da minhoca
-          sentido             :   out std_logic;  -- sentidos da minhoca
-          speed               :   out std_logic;   -- velocidade da minhoca e freq do beep
-          pause               :   out std_logic  -- liga ou desliga a movimentação
+          clock_50            :   in  std_logic;                        -- Y2 50 Mhz
+          in_IR               :   in  std_logic;                        -- Y15 sinal recebido pela portadora (vindo do controle)
+          push                :   in  std_logic;                        -- push botton RESET
+          way                 :   out std_logic;                        -- caminhos da minhoca
+          sentido             :   out std_logic;                        -- sentidos da minhoca
+          speed               :   out std_logic_vector (3 downto 0);    -- velocidade da minhoca e freq do beep
+          pause               :   out std_logic                         -- liga ou desliga a movimentação
         );
   end component;
 
 
 
-  signal clk				  :   std_logic;
-  signal caminho 	    :   std_logic;   -- escolhe o caminho 1 ou 2
-  signal sentido    	:   std_logic;    --  muda o sentido da minhoca
-  signal vel1         :   std_logic;  -- velocidade da cobra
-  signal pause        :   std_logic;  -- liga ou desliga
+  signal clk				  :   std_logic;                      -- sinal do clock modulado
+  signal caminho 	    :   std_logic;                      -- escolhe o caminho 1 ou 2
+  signal sentido    	:   std_logic;                      --  muda o sentido da minhoca
+  signal vel1         :   std_logic_vector (3 downto 0);  -- velocidade da cobra
+  signal pause        :   std_logic;                      -- liga ou desliga
 
 
 

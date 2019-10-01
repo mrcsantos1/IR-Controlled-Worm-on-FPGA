@@ -6,13 +6,13 @@ use IEEE.numeric_std.all;
 
 entity ir1 is
     port(
-          clock_50            :   in  std_logic;    -- Y2 50 Mhz
-          in_IR               :   in  std_logic;    -- Y15 sinal recebido pela portadora (vindo do controle)
-          push                :   in  std_logic;    -- push botton RESET
-          way                 :   out std_logic;    -- caminhos da minhoca
-          sentido             :   out std_logic;    -- sentidos da minhoca
-          speed               :   out std_logic;    -- velocidade da minhoca e freq do beep
-          pause               :   out std_logic     -- liga ou desliga a movimentação
+          clock_50            :   in  std_logic;                        -- Y2 50 Mhz
+          in_IR               :   in  std_logic;                        -- Y15 sinal recebido pela portadora (vindo do controle)
+          push                :   in  std_logic;                        -- push botton RESET
+          way                 :   out std_logic;                        -- caminhos da minhoca
+          sentido             :   out std_logic;                        -- sentidos da minhoca
+          speed               :   out std_logic_vector (3 downto 0);    -- velocidade da minhoca e freq do beep
+          pause               :   out std_logic                         -- liga ou desliga a movimentação
         );
 end ir1;
 
@@ -39,12 +39,12 @@ architecture main of ir1 is
 
 
   component ircontrol is -- VHDL criado para controlar o que cada botão fará no programa. 
-    port(                
-          bits    :   in  std_logic_vector (7 downto 0);    -- 8 bits recebidos (KEY CODE)
-          way     :   out std_logic;                        -- caminho 1 ou caminho 2
-          sentido :   out std_logic;                        -- sentido 1 ou sentido 2
-          speed   :   out std_logic;                        -- velocidade da minhoca
-          pause   :   out std_logic                         -- pausa o funcionamento da minhoca
+    port(
+          bits    :   in  std_logic_vector (7 downto 0);  -- 8 bits recebidos
+          way     :   out std_logic;                      -- caminho 1 ou caminho 2
+          sentido :   out std_logic;                      -- sentido 1 ou sentido 2
+          speed   :   out std_logic_vector (3 downto 0);  -- velocidade da minhoca
+          pause   :   out std_logic                       -- pausa o funcionamento da minhoca
         );
   end component;
 
