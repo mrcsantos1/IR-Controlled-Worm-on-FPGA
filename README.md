@@ -64,7 +64,7 @@
 - Melhorei conhecimentos em VHDL. 
 - Melhorei conhecimentos em Verilog. 
 - Melhorei conhecimentos em FPGA. 
-- Melhorei conhecimentos em modelagem e tratamento de sinais. 
+- Melhorei conhecimentos em modulação e tratamento de sinais. 
 - Melhorei conhecimentos em transmissão de sinais em infravermelho. 
 - Melhorei organização de códigos. 
 - Melhorei conhecimentos em máquinas de estados. 
